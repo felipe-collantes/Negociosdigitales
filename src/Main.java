@@ -21,5 +21,16 @@ c1.desactivar(); // Probamos desactivarlo
 c2.activar();  // Lo volvemos a activar
 
 System.out.println("Total de clientes: " + Cliente.getTotalClientes());
+
+// --- PRUEBA PRÁCTICA ND3.3 (PEDIDOS) ---
+
+        Pedido p6 = new Pedido("Carlos", 120.50);
+        Pedido p7 = new Pedido("María", 80.00);
+
+        p6.confirmar(); // Confirma y suma 120.50 a las ventas totales[cite: 1]
+        p7.confirmar(); // Intento duplicado (debe advertir que ya está confirmado)[cite: 1]
+
+        System.out.println("Total de pedidos: " + Pedido.getContadorPedidos());
+        System.out.println("Ventas totales: $" + Pedido.getVentasTotales());
     }
 }
