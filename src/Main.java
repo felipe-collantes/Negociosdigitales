@@ -22,6 +22,7 @@ c2.activar();  // Lo volvemos a activar
 
 System.out.println("Total de clientes: " + Cliente.getTotalClientes());
 
+
 // --- PRUEBA PRÁCTICA ND3.3 (PEDIDOS) ---
 
         Pedido p6 = new Pedido("Carlos", 120.50);
@@ -32,5 +33,6 @@ System.out.println("Total de clientes: " + Cliente.getTotalClientes());
 
         System.out.println("Total de pedidos: " + Pedido.getContadorPedidos());
         System.out.println("Ventas totales: $" + Pedido.getVentasTotales());
+
     }
 }
